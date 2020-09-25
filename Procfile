@@ -1,0 +1,1 @@
+web: gunicorn techniosys.wsgi:application --log-file -
