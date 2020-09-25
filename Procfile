@@ -1,1 +1,1 @@
-web: gunicorn techniosys.wsgi:application --log-file -
+web: gunicorn techniosys.wsgi --log-file -
