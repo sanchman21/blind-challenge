@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Problem Statement</title>
+</head>
+<body>
+<p>Techniosys</p>
+<a href="{% url 'editor' %}">Editor</a>
+<br>
+    <embed src="{% static 'techniosys/pdf/Problems.pdf' %}" width="600" height="800"
+ type="application/pdf">
+</body>
+</html>

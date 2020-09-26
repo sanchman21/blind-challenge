@@ -7,6 +7,19 @@
 
 </head>
 <body>
+<script type="text/javascript">
+$(document).ready(function ()
+{
+ $('#body').bind('cut copy paste', function (e)
+ {
+  e.preventDefault();
+ });
+ $("#body").on("contextmenu",function(e)
+ {
+  return false;
+ });
+});
+</script>
     <h1>Blind Coding Challenge <i class="fas fa-user-secret" style="font-size:48px;color:rgb(0, 217, 255)"></i></h1>
     <script>
 SEC_HTTPS = true;
@@ -20,9 +33,9 @@ SEC_BASE = "compilers.widgets.sphere-engine.com";
 </script>
 <div id="parent">
 <div class="sec-widget" data-widget="3f06cd5cacd44a789646c301ffe1fdb9"></div>
-<div class="overlay1"></div>
+<!-- <div class="overlay1"></div>
 <div class="overlay2"></div>
-<div class="overlay3"></div>
+<div class="overlay3"></div> -->
 <div class="overlay4"></div>
 </div>
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdRcyecXS4DAmTHAo7xIGOwcR3Sx1NWejETEt-nNxe6iCxqVg/viewform?embedded=true" width="640" height="877" frameborder="0" marginheight="0" marginwidth="0" >Loading…</iframe>
